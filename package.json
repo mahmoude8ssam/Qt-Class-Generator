@@ -1,0 +1,25 @@
+{
+  "name": "qt-class-generator",
+  "displayName": "Qt Class Generator",
+  "description": "Create Qt class folders with .h, .cpp, .pri and update .pro",
+  "version": "1.0.0",
+  "publisher": "MahmoudEssam",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "activationEvents": [
+    "onCommand:extension.createQtClass"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.createQtClass",
+        "title": "Create Qt Class"
+      }
+    ]
+  },
+  "devDependencies": {
+    "vscode": "^1.1.37"
+  }
+}
