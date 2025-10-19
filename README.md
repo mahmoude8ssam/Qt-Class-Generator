@@ -1,4 +1,6 @@
 # Qt Class Generator
+![Qt Class Generator Logo](./logo.png)
+
 
 **Qt Class Generator** is a Visual Studio Code extension that allows you to quickly create **Qt class folders** with `.h`, `.cpp`, and `.pri` files. It also organizes the files into a folder with the class name and automatically updates your `project.pro`.
 
@@ -70,14 +72,6 @@ SOURCES += \
     $$PWD/HomeWidget.cpp
 ```
 
-## Contributing
-
-If you want to contribute or suggest improvements:
-
-1. Fork the repository.
-2. Create a new branch for your feature/fix.
-3. Commit your changes and push to your branch.
-4. Open a pull request with a clear description of your changes.
 
 
 ## Links
