@@ -1,0 +1,6 @@
+# تجاهل ملفات حساسة
+m.md
+*.env
+node_modules/
+.vscode/
+ 
